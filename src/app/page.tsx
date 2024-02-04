@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
       <div className="flex flex-row items-center">
         <Link href="/en">
           <div className="flex flex-col bg-gray-100 text-gray-700 px-4 py-4 m-2">
-            <img
+            <Image
+              alt="Flag of the United Kingdom"
               src="https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg"
               width="100"
               height="100"
@@ -20,7 +22,8 @@ export default function Home() {
         </Link>
         <Link href="/ro">
           <div className="flex flex-col bg-gray-100 text-gray-700 px-4 py-4 m-2">
-            <img
+            <Image
+              alt="Flag of Romania"
               src="https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"
               width="100"
               height="100"

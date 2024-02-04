@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { museumItems } from "../../../../public/items";
 import Image from "next/image";
 interface pageProps {
@@ -36,9 +37,20 @@ export default function Page({ params }: pageProps) {
         <p className="text-xl font-bold text-gray-400 text-center m-5">
           {item.description}
         </p>
-        <Image src={item.image} alt={item.name} width={100} height={100} className="w-1/2 h-1/2 m-5" />
+        <Image
+          src={item.image}
+          alt={item.name}
+          width={100}
+          height={100}
+          className="w-1/2 h-1/2 m-5"
+        />
         <audio controls src={pathAudio}></audio>
         <a href={pathAudio}></a>
+        <Link href={`/${params.language}`}>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-5">
+            {params.language === "en" ? "Back" : "Înapoi"}
+          </button>
+        </Link>
       </div>
     </main>
   );

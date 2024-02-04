@@ -1,5 +1,5 @@
 import { museumItems } from "../../../../public/items";
-
+import Image from "next/image";
 interface pageProps {
   params: {
     itemId: 1;
@@ -36,7 +36,7 @@ export default function Page({ params }: pageProps) {
         <p className="text-xl font-bold text-gray-400 text-center m-5">
           {item.description}
         </p>
-        <img src={item.image} alt={item.name} className="w-1/2 h-1/2 m-5" />
+        <Image src={item.image} alt={item.name} width={100} height={100} className="w-1/2 h-1/2 m-5" />
         <audio controls src={pathAudio}></audio>
         <a href={pathAudio}></a>
       </div>

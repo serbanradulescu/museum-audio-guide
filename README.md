@@ -2,6 +2,8 @@
 
 ## Overview
 
+Visit https://museum-audio-guide.vercel.app/ to see how it can look like.
+
 The Museum Audio Guide App is a user-friendly and innovative solution that enhances the museum experience by combining QR codes, audio guides, and mobile technology. With this app, museum visitors can enjoy a personalized and immersive tour, gaining valuable insights and information about exhibits through audio narration.
 
 ## Features
@@ -58,6 +60,8 @@ You can implement this yourself or if need, I can deploy and manage this for you
 # Aplicație Ghid Audio pentru Muzeu
 
 ## Prezentare Generală
+
+Vizitați https://museum-audio-guide.vercel.app/ pentru a vedea cum poate arăta.
 
 Aplicația Ghid Audio pentru Muzeu este o soluție prietenoasă și inovatoare care îmbunătățește experiența muzeală prin combinarea codurilor QR, ghizelor audio și tehnologiei mobile. Cu această aplicație, vizitatorii muzeului pot bucura de o tură personalizată și captivantă, obținând informații valoroase despre exponate prin intermediul narrațiilor audio.
 
